@@ -7,7 +7,7 @@ export const Review = () => {
       <div className="container flex flex-col gap-6 justify-center items-center">
         <Image
           src={"/svg/companies/sisyphus.svg"}
-          className=""
+          className="max-sm:w-32"
           height={1000}
           width={96}
           alt="company logo"

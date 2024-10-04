@@ -17,8 +17,8 @@ export const FAQ = () => {
       <ul className="mt-12 sm:max-w-[600px] mx-auto">
         {QuestionsData.map((question, i) => (
           <li className="" key={i}>
-            <div className="flex justify-between items-center gap-8">
-              <h2 className="text-md font-medium">{question.title}</h2>
+            <div className="flex justify-between items-center gap-2">
+              <h2 className="text-lg font-medium">{question.title}</h2>
 
               <div>
                 {question.isOpen ? (

@@ -45,7 +45,7 @@ export const Analytics = () => {
               />
 
               <Image
-                className="absolute -bottom-8 sm:left-0 w-[160px] z-10"
+                className="absolute -bottom-7 sm:-left-3 w-[210px] z-10"
                 src={"/png/screen/mobile.png"}
                 width={1000}
                 height={1000}
@@ -82,7 +82,7 @@ export const Analytics = () => {
               <h3 className="font-semibold mt-4">{feature.heading}</h3>
               <p className="text-gray-500">{feature.text}</p>
 
-              <button className="flex justify-center items-center text-primary gap-2 font-bold mt-4">
+              <button className="flex justify-center items-center text-primary gap-2 font-medium mt-4">
                 Learn more
                 <div>
                   <ArrowRight className="size-5" />

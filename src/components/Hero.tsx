@@ -58,7 +58,7 @@ export const Hero = () => {
       </div>
 
       {/* Companies */}
-      <p className="mt-12 font-medium">Join 4,000+ companies already growing</p>
+      <p className="mt-8 sm:mt-12 font-medium">Join 4,000+ companies already growing</p>
 
       <ul className="grid grid-cols-2 sm:grid-cols-6 items-baseline justify-center gap-6 p-4">
         {CompaniesData.map((company) => (

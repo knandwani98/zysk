@@ -35,11 +35,11 @@ export const FeaturesData: FeatureProps[] = [
 
 export const CompaniesData: string[] = [
   "boltshift",
-  "featherDev",
-  "globalBank",
   "lightBox",
-  "Nietzshe",
+  "featherDev",
   "spherule",
+  "globalBank",
+  "Nietzshe",
 ];
 
 export const HeaderMenuData: MenuProps[] = [
