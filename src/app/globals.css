@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  .container {
+    @apply mx-auto max-w-[350px] px-1 sm:px-2 sm:max-w-[560px] md:px-4 md:max-w-[1000px];
+  }
+
+  .separator {
+    @apply container border-gray-300/40;
+  }
+}
